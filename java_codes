@@ -1,0 +1,22 @@
+Complete the code fragment to read two integer inputs from keyboard and find the quotient and remainder
+  
+  code:
+ import java.util.Scanner;
+ public class Program1{
+       public static void main(String[] args) {
+	   Scanner sc = new Scanner(System.in);
+	   int x=sc.nextInt();
+	   int y=sc.nextInt();
+//code for quotient and remainder
+       
+     System.out.println("The Quotient is = "+(x/y));
+     System.out.print("The Remainder is = "+(x%y));
+}
+}
+
+output:-
+-756
+8
+The Quotient is = -94\n
+The Remainder is = -4
+
